@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Mood Gallery</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to The Mood Gallery</h1>
+    <p>Choose a mood and explore how it feels.</p>
+
+    <!-- Mood Selector -->
+    <label for="moodSelect">How are you feeling today?</label>
+    <select id="moodSelect">
+      <option value="happy">😊 Happy</option>
+      <option value="calm">🧘‍♀️ Calm</option>
+      <option value="energetic">⚡ Energetic</option>
+      <option value="nostalgic">📸 Nostalgic</option>
+    </select>
+
+    <br><br>
+
+    <div id="affirmation" class="affirmation"></div>
+
+    <!-- Image Carousel -->
+    <div class="carousel">
+      <img id="carouselImage" src="" alt="Mood Image" />
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
